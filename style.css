@@ -1,0 +1,67 @@
+.header {
+    background-color: #1f2937;
+    height: 400px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    padding-top: 20px; 
+ }
+.head1 , .head2{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.head1 .logo {
+    height: 100px;
+    width: 450px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.head1 .menu {
+    height: 50px;
+    width: 550px;
+    margin: 10px;
+    
+}
+.menu a {
+    color: bisque;
+    font-size: 18px;
+    padding: 15px;
+    
+}
+.title {
+    height: 300px;
+    width: 450px; 
+    gap: 10px   ;
+    margin-bottom: 0px;    
+}
+#t1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+#t2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    color: #f9faf8 ;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    
+
+}
+.photo {
+    display: flex;
+    padding: 10px;
+    height: 300px;
+    width: auto;
+}
