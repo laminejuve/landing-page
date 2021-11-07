@@ -27,7 +27,7 @@
     
 }
 .menu a {
-    color: bisque;
+    color: rgb(219, 219, 218);
     font-size: 18px;
     padding: 15px;
     
@@ -65,7 +65,7 @@ button {
     width: auto;
 }
 
-.part2 {
+.part1 {
     height: 380px;
     padding-left: 200px;
     padding-right: 100px;
@@ -76,14 +76,14 @@ button {
     justify-content: center;
     align-items: center;
 }
-.part2 .title {
+.part1 .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     flex: 1;
     margin: 50px;
 }
-.part2 .laptops, .part2 .spec {
+.part1 .laptops, .part1 .spec {
     display: flex;
     width: 950px;
     margin-right: 100px;
@@ -93,16 +93,96 @@ button {
     align-items: center; 
 
 }
-.part2 .laptops img {
+.part1 .laptops img {
     border-radius: 12px;
     border: 2px solid rgb(81, 135, 235);
     height: 150px;
     width: 150px;
 }
-.part2 .spec p {
+.part1 .spec p {
     border-radius: 12px;
     height: 120px;
     width: 150px;
 
 }
+.part2 {
+    background-color: #e5e7eb;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part2 .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+   font-weight: lighter;
+   margin-bottom: -20px;
+}
+.part2 .author {
+    font-size: 30px;
+    color: #1f2937;
+   font-weight: bold;
+   margin-right: 120px;
+   align-self: flex-end;
+}
+.part3 {
+    height: 240px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part3 .container{
+    background-color: #3882f6;
+    display: flex;
+    height: 150px;
+    width: 950px;
+    justify-content: space-around;
+    align-items: center; 
+    border-radius: 8px;
+}
+.part3 .container .text {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 600px;
+    color: whitesmoke;
+    font-size: 19px;
+    justify-content: center;
+}
+.part3 .container .sign {
+    border: #faf8f8 solid 1px ;
+}
+.part3 .container .text .title {
+    font-weight: bold;
+}
+.footer {
+    background-color: #1f2937;
+    height: 35px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer p {
+    color: #f9faf8;
+    font-size: large;
+    margin-right: 75px;
+}
+
+
 
